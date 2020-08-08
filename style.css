@@ -637,10 +637,5 @@ footer ul li a:hover{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-/* 
-.sub-footer-card{
-    margin: 20px;
-} */
-
 
 }
