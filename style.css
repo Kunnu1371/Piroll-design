@@ -604,3 +604,43 @@ footer ul li a:hover{
         font-size: small;
     }
 }
+
+
+.footer-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+.footer-card{
+    padding: 5px;
+}
+
+.sub-footer-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+
+@media only screen and (max-width:768px){
+   footer{
+       padding: 15px;
+   } 
+   .footer-row{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1em;
+   }
+    
+   .sub-footer-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* 
+.sub-footer-card{
+    margin: 20px;
+} */
+
+
+}
